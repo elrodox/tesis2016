@@ -1,0 +1,74 @@
+\documentclass[12pt,letterpaper]{report}
+
+%Dimensiones de la página
+\usepackage[left=3cm,top=3cm,right=2.5cm,bottom=2.5cm]{geometry}
+%Sangría
+\setlength{\parindent}{1cm}
+
+%Numeracion
+\pagenumbering{arabic}
+
+%\marginparsep 0pt \textwidth 6in \topmargin 3cm \headsep .5in
+\textheight 9.2in \voffset = 0pt \hoffset = 0pt \marginparwidth =
+0pt \oddsidemargin = 0pt \sloppy
+
+\usepackage{templateICI}
+\usepackage{anysize}
+\usepackage{amsmath,amsfonts}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{graphics}
+\usepackage[dvips]{epsfig}
+\usepackage{times}
+\usepackage[latin1]{inputenc}
+\usepackage[dvips]{graphicx}
+\usepackage[usenames]{color}
+\usepackage[spanish]{babel}
+
+\newcommand{\ie}{i.e.}
+\newcommand {\out}[1]{}
+\newtheorem{teorema}{Teorema}
+\newtheorem{lema}{Lema}
+\newtheorem{definicion}{Definicion}
+
+\sloppy
+
+\begin{document}
+\renewcommand{\listtablename}{Índice de tablas}
+\renewcommand{\tablename}{Tabla}
+    \title{\textbf{Desarrollo de una aplicación de analítica del
+    		aprendizaje basada en posturas corporales
+    		utilizando Microsoft Kinect}}
+    \author{\textbf{Rodolfo Alejandro Guíñez Espinoza}}
+\principaladviser{Roberto Muñoz S.}
+\coprincipaladviser{NOMBRE DEL CO-REFERENTE}
+%\firstreader{NOMBRE DEL INFORMANTE 1}
+%\secondreader{NOMBRE DEL INFORMANTE 2}
+
+
+\beforepreface
+\prefacesection{Resumen}
+ Coloque aqui un resumen de su trabajo.
+\newpage
+\prefacesection{Agradecimientos}
+Aqui pueden colocar sus agradecimientos.
+Si han estudiado con becas es recomendable colocar los agradecimientos a las instituciones que les otorgaron las becas.
+\afterpreface
+
+%Aqui deben incluir el fuente de cada capitulo, sin su encabezado.
+\include{capitulo1}
+\include{capitulo2}
+%\include{capitulo3}
+%\include{capitulo4}
+%\include{capitulo5}
+
+%\appendix
+
+%\include{appendix1}
+%\include{appendix2}
+%\include{appendix3}
+
+\bibliographystyle{plain}
+\bibliography{template}
+
+\end{document}
