@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.19)  19 APR 2016 12:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.19)  19 APR 2016 17:02
 entering extended mode
 **templateICI.tex
 (templateICI.tex
@@ -257,7 +257,32 @@ Package babel Info: Making > an active character on input line 662.
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 
-(capitulo1.aux) (capitulo2.aux))
+(capitulo1.aux) (capitulo2.aux)
+
+LaTeX Warning: Label `ref2' multiply defined.
+
+
+LaTeX Warning: Label `ref1' multiply defined.
+
+
+LaTeX Warning: Label `ref10' multiply defined.
+
+
+LaTeX Warning: Label `ref11' multiply defined.
+
+
+LaTeX Warning: Label `ref13' multiply defined.
+
+
+LaTeX Warning: Label `ref3' multiply defined.
+
+
+LaTeX Warning: Label `ref14' multiply defined.
+
+
+LaTeX Warning: Label `ref5' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
@@ -271,8 +296,7 @@ LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 36.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 *geometry* driver: auto-detecting
@@ -374,45 +398,6 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 2.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.4 ...pter}{\numberline {1}Introducci\~A{^3}n}{1}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<argument> \numberline {1}Introducci\~A{^3}
-                                           n
-l.4 ...pter}{\numberline {1}Introducci\~A{^3}n}{1}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.4 ...pter}{\numberline {1}Introducci\~A{^3}n}{1}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.4 ...pter}{\numberline {1}Introducci\~A{^3}n}{1}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 )
 \tf@toc=\write3
  [5
@@ -431,42 +416,61 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lof=\write5
  [7
 
-] (capitulo1.tex
+]
+(capitulo1.tex
 Cap\'{\i }tulo 1.
-) [1
+[1
 
 
 
-] (capitulo2.tex
+]
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
+ [2])
+LaTeX Info: Redefining \. on input line 59.
+LaTeX Info: Redefining \% on input line 59.
+ [3] (capitulo2.tex
 Cap\'{\i }tulo 2.
-) [2
+
+LaTeX Warning: Citation `bussinessCommunication' on page 4 undefined on input l
+ine 5.
+
+) [4
 
 
 
-] (templateICI.bbl) [3
+] (templateICI.bbl) (templateICI.bbl [5
 
+
+]) [6
 
 ] (templateICI.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
- (capitulo1.aux) (capitulo2.aux)) ) 
+
+(capitulo1.aux) (capitulo2.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3789 strings out of 493698
- 51157 string characters out of 3144406
- 126228 words of memory out of 3000000
- 7002 multiletter control sequences out of 15000+200000
- 24147 words of font info for 52 fonts, out of 3000000 for 9000
+ 3804 strings out of 493698
+ 51283 string characters out of 3144406
+ 133293 words of memory out of 3000000
+ 7013 multiletter control sequences out of 15000+200000
+ 25789 words of font info for 54 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 42i,9n,30p,471b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips
-/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/urw/times/utmri8a.pfb>
-Output written on templateICI.pdf (10 pages, 76539 bytes).
+ 42i,9n,30p,1214b,396s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
+/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on templateICI.pdf (13 pages, 82444 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
+ 69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

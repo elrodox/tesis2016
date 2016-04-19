@@ -1,5 +1,37 @@
 %\usepackage[spanish]{babel}
 \chapter{Introducción}
 
-Este es un ejemplo de como referenciar \cite{bharat97,agrawal94}.
-Más ejemplos \cite{beeferman00}. Para más detalle, revise el archivo \textit{template.bib}. 
+El intercambio de información en el aprendizaje es un elemento esencial. Tradicionalmente se pensaba que la comunicación se desarrollaba sólo a través de la lengua, teniendo así un paradigma monomodal \cite{ref1}. Esto se debía a que la lengua ocupaba un rol central en la comunicación, clasificando las otras representaciones como extralinguísticas \cite{ref1}. Kress y Leeuwen plantean una postura multimodal, donde el lenguaje está compuesto por distintas aristas: posturas corporales, expresiones faciales, tonos de voz, y un largo etcétera \cite{ref13}.
+Por ejemplo cuando el profesor enseña, tanto él como sus alumnos están en una constante entrega y recepción de información. A medida que el profesor enseña, el alumno va reaccionando, entregando información con lenguaje kinésico. 
+
+La primera conferencia internacional de Learning Analytics definió la analitica del aprendizaje como ``la medición, recopilación, análisis y representación de los datos de los estudiantes y sus contextos, con el propósito de comprender y optimizar el aprendizaje y el entorno en que éste de lleva a cabo'' \cite{ref5}. Este concepto utiliza un campo muy amplio, incluyendo por ejemplo, áreas como big data y minería de datos. Una de las aristas se basa en el lenguaje no verbal, donde el aprendizaje se analiza mediante gestos, posturas corporales, sonidos y otros.
+
+\section{Problema}
+El lenguaje no verbal es algo innato que ha estado presente desde hace miles de años no solo en el comportamiento humano, sino que también en los animales. Es algo que surge de manera natural, como por ejemplo cuando una persona habla por teléfono y realiza gestos aunque su interlocutor no le esté viendo. 
+Dado que el aprendizaje es producto de la interacción \cite{ref3}, cuando dos sujetos se comunican, aprenden el uno del otro. Si se estudia este comportamiento, se puede determinar si el receptor está comprendiendo el mensaje recibido o no.
+En otras palabras, analizando posturas corporales, se puede determinar la reacción de un individuo a un estimulo externo, una conversación o un discurso, clasificando su estado en aburrido, distraído, atento y otros más \cite{ref13}.
+El proceso de análisis del lenguaje kinésico en discursos, reuniones, salas de clases, es una demorosa labor que realizan distintos profesionales de forma "manual" \cite{ref10}. Hoy en día la analítica del aprendizaje multimodal (MLA) ha avanzado a pasos agigantados en cuanto a publicaciones y literatura \cite{ref2}. Se tienen múltiples investigaciones acerca del tema, ya que el concepto es extenso. Pero en cuanto a desarrollo de software el avance ha sido más lento \cite{ref2}. Por ejemplo se tiene la aplicación ANVIL \cite{ref11}, la cual toma un archivo de vídeo, y realiza un análisis multimodal. Este proyecto no ha sido actualizado desde hace años, y tiene tecnología ya obsoleta \cite{ref2}. ANVIL sólo analiza una persona a la vez, lo cual dificulta la tarea a la hora de estudiar varios sujetos. También hay proyectos recientes que se han enfocado en el reconocimiento facial, tonos de voz, y otros aspectos multimodales, de una manera mucho más efectiva. Pero ninguno de estos trabajos realizan un estudio de las posturas estáticas de los participantes, además ejercen el análisis sobre un único sujeto.
+
+\section{Solución Propuesta}
+Según el problema planteado, se comprende que existe una necesidad de automatizar el proceso de análisis multimodal, lo cual puede tener múltiples ventajas y aplicaciones. Por lo tanto se propone como solución desarrollar un software que detecte, analice, e interprete mediante posturas corporales estáticas, las emociones o estados afectivos de dos sujetos como mínimo. 
+Para esto se ha decidido utilizar un sensor de profundidad, el cual entregue los puntos en el espacio 3D, que representen el esqueleto de una persona. Dentro de las posibles opciones, se ha optado por utilizar Microsoft Kinect \cite{ref14}, ya que aparte de ser un recurso accesible en la Universidad de Valparaíso, existe una gran cantidad de documentación en internet sobre su utilización.
+Para el procesamiento, análisis e interpretación de los puntos detectados y sus respectivas posturas y emociones asociadas, se utilizarán máquinas de aprendizaje, para poder realizar esta clasificación de manera óptima.
+Dentro del marco multimodal hay muchas variantes. Para este trabajo se ha determinado hacer un enfoque específico sobre las posturas corporales estáticas, identificando un rango aproximado de 3 a 5 estados afectivos.
+
+
+\section{Objetivos}
+\label{obj}
+A continuación se presenta el objetivo general del trabajo de título el cual se alcanzará mediante los objetivos específicos.
+
+\subsection{Objetivo General}
+Desarrollar un aplicación informática que analice las posturas corporales de los alumnos, e identifique estados de animo en función del tiempo, con la finalidad de ayudar en el análisis de aprendizaje.
+
+% - Reconocer la emoción que está representando la postura de un sujeto, mediante una aplicación informática.
+
+\subsection{Objetivos Específicos}
+
+\begin{itemize}
+	\item Investigar y analizar el dominio del problema, para luego definir el marco de desarrollo del software.
+	\item Implementar la aplicación en base a los resultados del objetivo anterior, realizando pruebas unitarias y mejorando el sistema mediante retroalimentación.
+	\item Integrar el sistema a cátedras reales o de prueba en la Universidad, para medir la eficacia final del software.
+\end{itemize}
