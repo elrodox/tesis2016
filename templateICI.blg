@@ -1,4 +1,14 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: templateICI.aux
 A level-1 auxiliary file: capitulo1.aux
+A level-1 auxiliary file: capitulo2.aux
 The style file: plain.bst
 Database file #1: template.bib
+I was expecting a `,' or a `}'---line 3 of file template.bib
+ :  
+ :  title = {Non Verbal Communication - Chapter 13 from 'Mastering Business Communication'}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty title in bussinessCommunication
+Warning--empty publisher in bussinessCommunication
+Warning--empty year in bussinessCommunication
+(There was 1 error message)
