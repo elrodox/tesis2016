@@ -1,11 +1,10 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: templateICI.aux
 A level-1 auxiliary file: capitulo1.aux
 A level-1 auxiliary file: capitulo2.aux
+A level-1 auxiliary file: capitulo3.aux
+A level-1 auxiliary file: capitulo4.aux
+A level-1 auxiliary file: capitulo5.aux
 The style file: plain.bst
-Illegal, another \bibdata command---line 24 of file templateICI.aux
- : \bibdata
- :         {capitulo2}
-I'm skipping whatever remains of this command
 Database file #1: capitulo1.bib
 I was expecting a `,' or a `}'---line 4 of file capitulo1.bib
  :  
@@ -47,7 +46,8 @@ I was expecting a `,' or a `}'---line 54 of file capitulo1.bib
  :  PUBLISHER =    "Book",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "bussinessCommunication"
+Warning--empty publisher in MehrabianNonVerbalCommunication
+Warning--empty year in MehrabianNonVerbalCommunication
 Warning--empty publisher in ref2
 Warning--empty year in ref2
 Warning--empty publisher in ref1
@@ -58,10 +58,22 @@ Warning--empty publisher in ref11
 Warning--empty year in ref11
 Warning--empty publisher in ref13
 Warning--empty year in ref13
+Warning--empty publisher in KurienBodyLanguage
+Warning--empty year in KurienBodyLanguage
 Warning--empty publisher in ref3
 Warning--empty year in ref3
 Warning--empty publisher in ref14
 Warning--empty year in ref14
+Warning--empty publisher in MondlochRelacionPosturasYGestos
+Warning--empty year in MondlochRelacionPosturasYGestos
+Warning--empty publisher in EkmanComoDetectarMentiras
+Warning--empty year in EkmanComoDetectarMentiras
+Warning--empty publisher in EkmanEstudioExpresionesFaciales
+Warning--empty year in EkmanEstudioExpresionesFaciales
+Warning--empty publisher in EkmanArticulo
+Warning--empty year in EkmanArticulo
 Warning--empty publisher in ref5
 Warning--empty year in ref5
-(There were 9 error messages)
+Warning--empty publisher in bussinessCommunication
+Warning--empty year in bussinessCommunication
+(There were 8 error messages)

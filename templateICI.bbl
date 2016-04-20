@@ -1,4 +1,8 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{MehrabianNonVerbalCommunication}
+{Albert Mehrabian}.
+\newblock {\em Nonverbal Communication. Chicago, IL Aldine Atherton.}
 
 \bibitem{ref2}
 {Chee Wee Leong, Lei Chen, Gary Feng, Chong Min Lee and Matthew Mulholland}.
@@ -25,6 +29,10 @@
 \newblock {\em Multimodal Discourse - The Modes and Media of
   ContemporaryCommunication}.
 
+\bibitem{KurienBodyLanguage}
+{Kurien, Daisy N (March 1, 2010)}.
+\newblock {\em Body Language: Silent Communicator at the Workplace}.
+
 \bibitem{ref3}
 {Learning Analytics}.
 \newblock {\em Learning Analytics Definitions Processes Potential}.
@@ -34,8 +42,31 @@
 \newblock {\em Kinect for Windows -
   developer.microsoft.com/en-us/windows/kinect}.
 
+\bibitem{MondlochRelacionPosturasYGestos}
+{Mondloch, Catherine J .; Nelson, Nicole L .; Horner, Mateo; Pavlova, Marina}.
+\newblock {\em Las asimetrias de Influencia: Efectos diferenciales de las
+  posturas del cuerpo sobre la percepcion de las expresiones faciales
+  emocionales}.
+
+\bibitem{EkmanComoDetectarMentiras}
+{Paul Ekman}.
+\newblock {\em Como detectar mentiras}.
+
+\bibitem{EkmanEstudioExpresionesFaciales}
+{Paul Ekman}.
+\newblock {\em Estudio Expresiones Faciales De La Emocion}.
+
+\bibitem{EkmanArticulo}
+{Paul Ekman}.
+\newblock {\em Los Gestos Faciales (Articulo)}.
+
 \bibitem{ref5}
 {Phillip D. Long y George Siemens}.
 \newblock {\em Penetrating the Fog: Analytics in Learning and Education}.
+
+\bibitem{bussinessCommunication}
+{wtf}.
+\newblock {\em Non Verbal Communication - Chapter 13 from 'Mastering Business
+  Communication'}.
 
 \end{thebibliography}
